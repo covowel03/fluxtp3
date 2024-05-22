@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-go-service
+  namespace: default
+spec:
+  selector:
+    app: hello-go  # Ensure this matches the labels of your application's pods
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: ClusterIP
