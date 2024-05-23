@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
        - name: web
-         image: 494013786575.dkr.ecr.us-east-1.amazonaws.com/hellogo:latest
+         image: 753319181693.dkr.ecr.us-east-1.amazonaws.com/hellogo:latest
          ports:
           - containerPort: 8080
